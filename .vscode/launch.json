@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Shelf Server (Debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "bin/main.dev.dart", // Path to your main server file (e.g., bin/server.dart)
+      "args": []
+      // "autoRun": false,
+      // "justServe": true, // Enables debugging while the server is running
+      // "enableVmService": true, // Enables remote debugging connection
+      // "vmServicePort": 5858 // Specify a port for the VM Service
+    }
+  ]
+}
